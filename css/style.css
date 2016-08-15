@@ -96,7 +96,7 @@ html,body,div{
     text-align: center;
     color: #5e1f4b;
     font-size:25px;
-    z-index:100;
+    z-index:50;
 }
 .logo_Wrap img{
     max-width:100%;
@@ -119,7 +119,7 @@ video{
     position:absolute;
     width:100%;
     height:100%;
-    z-index: 97;
+    z-index: 30;
     opacity:0.6;
     background: #e7316e;
     background:-webkit-linear-gradient(left,#e7316e,#28a7e1);
@@ -131,7 +131,7 @@ video{
     position:absolute;
     width:100%;
     height:100%;
-    z-index: 97;
+    z-index: 30;
     opacity:0.6;
     background: #70A2F4;
     background:-webkit-linear-gradient(left,#70A2F4,#FFCDDC);
@@ -143,7 +143,7 @@ video{
     position:absolute;
     width:100%;
     height:100%;
-    z-index: 97;
+    z-index: 30;
     opacity:0.6;
     background: #031E2F;
     background:-webkit-linear-gradient(left,#031E2F,#59D50F);
@@ -155,7 +155,7 @@ video{
     position:absolute;
     width:100%;
     height:100%;
-    z-index: 97;
+    z-index: 30;
     opacity:0.6;
     background:#c0040f;
     background:-webkit-linear-gradient(left,#c0040f,#130001);
@@ -167,7 +167,7 @@ video{
     position:absolute;
     width:100%;
     height:100%;
-    z-index: 97;
+    z-index: 30;
     opacity:0.6;
     background:#4e4a9e;
     background:-webkit-linear-gradient(left,#4e4a9e,#ff6666);
@@ -180,7 +180,7 @@ video{
     background: url('../img/dot.png');
     width:100%;
     height:100%;
-    z-index: 98;
+    z-index: 32;
 }
 .recruit1{
     height: 80px;

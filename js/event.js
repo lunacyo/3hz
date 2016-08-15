@@ -1,5 +1,6 @@
 window.onload = function(){
     $('.logo_Wrap').css('display','block');
+    $('.scroll').css('display','block');
 }
 
 var vf2 = new eg.Flicking($("#vertical"), {

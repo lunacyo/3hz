@@ -96,7 +96,7 @@ html,body,div{
     text-align: center;
     color: #5e1f4b;
     font-size:25px;
-    z-index:50;
+    z-index:99;
 }
 .logo_Wrap img{
     max-width:100%;

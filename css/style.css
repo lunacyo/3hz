@@ -117,7 +117,7 @@ html,body,div{
     width: 50%;
     height: 50%;
     overflow: hidden;
-    opacity: 0.8;
+    z-index: -20;
 }
 video{
     min-width: 100%;

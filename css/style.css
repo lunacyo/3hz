@@ -133,6 +133,8 @@ video{
     opacity:0.6;
     background: #e7316e;
     background:-webkit-linear-gradient(left,#e7316e,#28a7e1);
+    background:-o-linear-gradient(left,#e7316e,#28a7e1);
+    background: -moz-linear-gradient(left,#e7316e,#28a7e1);
     background: linear-gradient(left,#e7316e,#28a7e1);
 }
 .bg_Mask2{
@@ -143,6 +145,8 @@ video{
     opacity:0.6;
     background: #70A2F4;
     background:-webkit-linear-gradient(left,#70A2F4,#FFCDDC);
+    background:-o-linear-gradient(left,#70A2F4,#FFCDDC);
+    background: -moz-linear-gradient(left,#70A2F4,#FFCDDC);
     background: linear-gradient(left,#70A2F4,#FFCDDC);
 }
 .bg_Mask3{
@@ -153,6 +157,8 @@ video{
     opacity:0.6;
     background: #031E2F;
     background:-webkit-linear-gradient(left,#031E2F,#59D50F);
+    background:-o-linear-gradient(left,#031E2F,#59D50F);
+    background: -moz-linear-gradient(left,#031E2F,#59D50F);
     background: linear-gradient(left,#0d1150,#015756);
 }
 .bg_Mask4{
@@ -163,6 +169,8 @@ video{
     opacity:0.6;
     background:#c0040f;
     background:-webkit-linear-gradient(left,#c0040f,#130001);
+    background:-o-linear-gradient(left,#c0040f,#130001);
+    background: -moz-linear-gradient(left,#c0040f,#130001);
     background: linear-gradient(left,#c0040f,#130001);
 }
 .bg_Mask5{
@@ -173,6 +181,8 @@ video{
     opacity:0.6;
     background:#4e4a9e;
     background:-webkit-linear-gradient(left,#4e4a9e,#ff6666);
+     background:-o-linear-gradient(left,#4e4a9e,#ff6666);
+    background: -moz-linear-gradient(left,#4e4a9e,#ff6666);
     background: linear-gradient(left,#4e4a9e,#ff6666);
 }
 .bg_Dot{

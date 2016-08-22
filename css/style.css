@@ -88,7 +88,7 @@ html,body,div{
     display: none;
     position:absolute;
     width: 500px;
-    height:30%;
+    height:25%;
     top: 0;
     left: 0;
     right: 0;
@@ -102,8 +102,6 @@ html,body,div{
 .logo_Wrap img{
     max-width:100%;
     height: auto;
-}.logo_Wrap img:hover{
-    cursor: pointer;
 }
 .logo_Wrap span{
     display: inline-block;
@@ -117,7 +115,7 @@ html,body,div{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1;
+    z-index:1;
 }
 video{
     min-width: 100%;
@@ -195,28 +193,26 @@ video{
 .recruit1{
     height: 80px;
     margin: 10px;
-    color: white;
     padding-top: 30px;
 }
-.recruit1>p{
-    cursor: pointer;
+.recruit1>p>a{
+     color: white;
 }
 .recruit2{
     height: 80px;
     margin: 10px;
-    color: white;
     padding-top: 30px;
 }
-.recruit2>p{
-    cursor: pointer;
+.recruit2>p>a{
+     color: white;
 }
-.recruit1>p:hover{
+.recruit1>p>a:hover{
     color:rgba(0,0,0,0.5);
 }
-.recruit2>p:hover{
+.recruit2>p>a:hover{
     color:rgba(0,0,0,0.5);
 }
-.main>h2{
+.main h2{
     width: 100%;
     font-size: 90px;
     color: #af5848;
@@ -244,40 +240,12 @@ video{
     font-size:15px;
     
 }
-.footer p,a{
+.footer>p{
     margin: 5px;
     color: #af5848;
 }
-.scroll{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 200px;
-    z-index: 101;
-    text-align: center;
-    color:#5e1f4b;
-    font-style: italic;
-    font-weight: 400;
-}
-.scroll img{
-    margin-top: 40px;
-    width:100px;
-    height: 100px;
-}
-.scroll2{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    height: 200px;
-    z-index: 101;
-    text-align: center;
-}
-.scroll2 img{
-    margin-top: 40px;
-    width:100px;
-    height: 100px;
+.footer>a{
+    margin: 5px;
+    color: #af5848;
 }
 

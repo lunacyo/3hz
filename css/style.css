@@ -88,7 +88,6 @@ html,body,div{
     display: none;
     position:absolute;
     width: 500px;
-    border: 1px solid red;
     height:200px;
     top: 50%;
     margin-top: -100px;

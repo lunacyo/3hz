@@ -88,12 +88,12 @@ html,body,div{
     display: none;
     position:absolute;
     width: 500px;
-    height:25%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin:auto;
+    border: 1px solid red;
+    height:200px;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -250px;
     text-align: center;
     color: #5e1f4b;
     font-size:25px;
@@ -247,5 +247,33 @@ video{
 .footer>a{
     margin: 5px;
     color: #af5848;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    video {
+        display:none;
+    }
+      .bg2{
+          background: url(../img/1.png);
+          background-size: cover;
+      }
+      .bg3{
+          background: url(../img/2.jpg);
+          background-size: cover;
+      }
+      .bg4{
+          background: url(../img/3.png);
+          background-size: cover;
+      }
+      .bg5{
+          background: url(../img/4.png);
+          background-size: cover;
+      }
+      .bg6{
+          background: url(../img/5.jpg);
+          background-size: cover;
+      }
 }
 

@@ -256,23 +256,29 @@ video{
     }
       .bg2{
           background: url(../img/1.png);
-          background-size:100%;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
       }
       .bg3{
           background: url(../img/2.jpg);
-   background-size:100%;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
       }
       .bg4{
           background: url(../img/3.png);
-     background-size:100%;
+          background-size: cover;
       }
       .bg5{
           background: url(../img/4.png);
-       background-size:100%;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
       }
       .bg6{
           background: url(../img/5.jpg);
-     background-size:100%;
+          background-size: cover;
       }
 }
 
